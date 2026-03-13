@@ -4,6 +4,7 @@ import { Toaster } from "sonner";
 import "./globals.css";
 import { TopNav } from "@/components/TopNav";
 import { Providers } from "@/components/Providers";
+import { GithubButton } from "@/components/GithubButton";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -37,6 +38,7 @@ export default function RootLayout({
           </div>
           <TopNav />
           {children}
+          <GithubButton />
           <Toaster theme="dark" position="bottom-right" richColors closeButton />
         </Providers>
       </body>

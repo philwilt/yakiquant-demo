@@ -1,10 +1,12 @@
 # Yakiquant Demo
 
-A standalone Next.js dashboard demo for [Yakiquant](https://github.com/phillipwilt/yakiquant) — an AI-assisted U.S. equities swing trading research lab built in the Yakima Valley.
+**[Live Demo](https://quant.philbuildsthings.com)** · [GitHub](https://github.com/philwilt/yakiquant-demo)
+
+A standalone Next.js dashboard demo for [Yakiquant](https://github.com/philwilt/yakiquant-demo) — an AI-assisted U.S. equities swing trading research lab built in the Yakima Valley.
 
 The full Yakiquant system ingests market data, runs technical scans, generates LLM-powered trade theses via Claude, applies portfolio risk controls, and paper trades via Alpaca. This demo is a portable, public-facing snapshot of that dashboard with mock data — no backend required.
 
-![Dashboard preview](https://placeholder)
+![Dashboard preview](snapshots/dashboard-preview.png)
 
 ## Features
 
@@ -17,15 +19,15 @@ The full Yakiquant system ingests market data, runs technical scans, generates L
 
 ## Stack
 
-| Layer | Technology |
-|---|---|
-| Framework | Next.js 15 (App Router) |
-| Language | TypeScript 5 |
-| UI Components | shadcn/ui + Radix UI |
-| Styling | Tailwind CSS 3 |
-| Charts | Recharts 2 |
-| Data Fetching | SWR 2 |
-| Animations | Framer Motion 11 |
+| Layer         | Technology              |
+| ------------- | ----------------------- |
+| Framework     | Next.js 15 (App Router) |
+| Language      | TypeScript 5            |
+| UI Components | shadcn/ui + Radix UI    |
+| Styling       | Tailwind CSS 3          |
+| Charts        | Recharts 2              |
+| Data Fetching | SWR 2                   |
+| Animations    | Framer Motion 11        |
 
 ## Getting Started
 
